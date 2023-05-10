@@ -1,0 +1,48 @@
+body{
+    
+    color: aliceblue;
+    height: fit-content;
+    background-image:url(images/istock.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 100px auto;
+
+}
+.image{
+   
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.bio{
+
+    text-align: center;
+    color: rgb(15, 14, 14);
+}
+
+.ig{
+    background-color: rgb(17, 17, 17);
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+.ig:hover{
+background-color: rgb(243, 184, 184);
+color: white;
+}
